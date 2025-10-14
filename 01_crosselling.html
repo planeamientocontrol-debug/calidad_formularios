@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NTP | Calidad - Focalizados</title>
+  <link rel="stylesheet" href="css/tailwind.min.css">
+</head>
+<body class="min-h-screen bg-gray-200">
+  <div class="md:flex min-h-screen">
+    <!-- Sidebar -->
+    <aside class="md:w-1/5 bg-teal-600 px-5 py-10">
+      <h1 class="uppercase text-white tracking-wide text-2xl font-bold mt-2">Formularios</h1>
+      <nav class="mt-8 space-y-2">
+        <a href="01_crosseling.html" class="block text-white bg-teal-700 px-3 py-1 rounded hover:bg-teal-800 hover:text-yellow-400">Croselling</a>
+        <a href="01_crosseling.html" class="block text-white px-3 py-1 rounded hover:bg-teal-800 hover:text-yellow-400">Retenciones</a>
+        <a href="01_crosseling.html" class="block text-white px-3 py-1 rounded hover:bg-teal-800 hover:text-yellow-400">Descuentos y Ajustes</a>
+        <a href="01_crosseling.html" class="block text-white px-3 py-1 rounded hover:bg-teal-800 hover:text-yellow-400">Descuentos y Ajustes</a>
+        <a href="01_crosseling.html" class="block text-white px-3 py-1 rounded hover:bg-teal-800 hover:text-yellow-400">Descuentos y Ajustes</a>
+      </nav>
+    </aside>
+
+    <!-- Main -->
+    <main class="md:w-4/5 px-5 py-10 bg-gray-100">
+      <h2 class="text-2xl font-bold text-gray-700 mb-6">Focalizados - Croselling</h2>
+
+      <form id="formCroselling" class="space-y-8">
+
+        <!-- 🟩 BLOQUE 1 -->
+        <div class="bg-white p-5 rounded-lg shadow">
+          <h3 class="text-lg font-semibold mb-4 text-teal-700">Datos Generales</h3>
+          <div class="grid md:grid-cols-2 gap-4">
+
+            <div>
+              <label class="block text-gray-600">Fecha de llamada</label>
+              <input type="date" class="w-full border rounded p-2" name="fecha_llamada">
+            </div>
+
+            <div>
+              <label class="block text-gray-600">Campaña</label>
+              <select id="campania" class="w-full border rounded p-2"></select>
+            </div>
+
+            <div>
+              <label class="block text-gray-600">Tipo Focalizado</label>
+              <input type="text" value="NTP" readonly class="w-full border rounded p-2 bg-gray-100">
+            </div>
+
+            <div>
+              <label class="block text-gray-600">Fecha Revisión</label>
+              <input type="date" class="w-full border rounded p-2" name="fecha_revision">
+            </div>
+
+            <div>
+              <label class="block text-gray-600">Teléfono / Any / Chat</label>
+              <input type="text" class="w-full border rounded p-2">
+            </div>
+
+            <div>
+              <label class="block text-gray-600">DNI Cliente</label>
+              <input type="text" class="w-full border rounded p-2">
+            </div>
+
+            <div>
+              <label class="block text-gray-600">DNI Asesor</label>
+              <select id="dni_asesor" class="w-full border rounded p-2"></select>
+            </div>
+
+            <div>
+              <label class="block text-gray-600">Usuario ICC</label>
+              <select id="usuario_icc" class="w-full border rounded p-2"></select>
+            </div>
+
+            <div>
+              <label class="block text-gray-600">Nombre Asesor</label>
+              <select id="nombre_asesor" class="w-full border rounded p-2"></select>
+            </div>
+
+            <div>
+              <label class="block text-gray-600">Supervisor</label>
+              <select id="supervisor" class="w-full border rounded p-2"></select>
+            </div>
+
+            <div>
+              <label class="block text-gray-600">Monitor</label>
+              <select id="monitor" class="w-full border rounded p-2"></select>
+            </div>
+
+            <div>
+              <label class="block text-gray-600">Semana</label>
+              <input type="text" class="w-full border rounded p-2">
+            </div>
+
+            <div>
+              <label class="block text-gray-600">Cuartil</label>
+              <input type="text" class="w-full border rounded p-2">
+            </div>
+          </div>
+        </div>
+
+        <!-- 🟦 BLOQUE 2 -->
+        <div class="bg-white p-5 rounded-lg shadow">
+          <h3 class="text-lg font-semibold mb-4 text-teal-700">Evaluación de Gestión</h3>
+          <div class="grid md:grid-cols-2 gap-4">
+
+            <div>
+              <label class="block text-gray-600">Quién se comunica</label>
+              <select id="quien_comunica" class="w-full border rounded p-2"></select>
+            </div>
+
+            <div>
+              <label class="block text-gray-600">Motivo de contacto</label>
+              <select id="motivo_contacto" class="w-full border rounded p-2"></select>
+            </div>
+
+            <div>
+              <label class="block text-gray-600">Tipo de plan + SVA</label>
+              <select id="tipo_plan" class="w-full border rounded p-2"></select>
+            </div>
+
+            <div>
+              <label class="block text-gray-600">Amerita ofrecimiento</label>
+              <select id="amerita_ofrecimiento" class="w-full border rounded p-2"></select>
+            </div>
+
+            <div class="col-span-2">
+              <label class="block text-gray-600">Observaciones adicionales</label>
+              <textarea class="w-full border rounded p-2" rows="3"></textarea>
+            </div>
+          </div>
+        </div>
+
+        <button type="submit" class="bg-teal-600 text-white px-6 py-2 rounded hover:bg-teal-700">
+          Guardar formulario
+        </button>
+
+      </form>
+    </main>
+  </div>
+
+  <script src="js/app.js" type="module"></script>
+</body>
+</html>
