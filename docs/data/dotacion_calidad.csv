@@ -1,36 +1,36 @@
-﻿DNI;Ususario ICC;Asesor;Supervisor;Cargo;Modalidad;Condición;CAMPAÑA;Correo;Telefono;FECHA DE INGRESO;ESTADO
-73663233;degollaral;Alejandra Degollar Davila;Luz Bustamante Caycho;Asesor;PRESENCIAL;FT;ATC DIGITAL;alejandra.degollar@ntpperu.com;973 723 563;05/05/2025;ACTIVO
-76417832;silvestreda;Daniel Silvestre Principe;Luz Bustamante Caycho;Asesor;REMOTO;FT;ATC DIGITAL;daniel.silvestre@ntpperu.com;970043365;05/05/2025;ACTIVO
-74708090;pereziv;Ivan Perez Farfan;Luz Bustamante Caycho;Asesor;PRESENCIAL;FT;ATC DIGITAL;ivan.perez@ntpperu.com;900443945;05/05/2025;ACTIVO
-75270680;aaranciaga;Alexis Aranciaga;Luz Bustamante Caycho;Asesor;REMOTO;FT;ATC DIGITAL;alexis.aranciaga@ntpperu.com;923 992 335;06/06/2025;ACTIVO
-71670523;glimahuaya;Gianella Ruby Limahuaya Serrano;Luz Bustamante Caycho;Asesor;REMOTO;FT;ATC DIGITAL;gianella.limahuaya@ntpperu.com;902014173;06/06/2025;ACTIVO
-3885022;gmata;Greidy Matta Guauria;Luz Bustamante Caycho;Asesor;REMOTO;FT;ATC DIGITAL;greidy.mata@ntpperu.com;971 985 575;06/06/2025;ACTIVO
-70110439;zgarcia;Zenaida Beatriz García Huaranca;Luz Bustamante Caycho;Asesor;REMOTO;FT;ATC DIGITAL;zenaida.garcia@ntpperu.com;982749935;06/06/2025;ACTIVO
+﻿dni;usuario_icc;asesor;supervisor;cargo;modalidad;condicion;campania;correo;telefono;fecha_de_ingreso;estado
+73663233;degollaral;Alejandra Degollar Davila;Luz Bustamante Caycho;Asesor;PRESENCIAL;FT;ATC DIGITAL;alejandra.degollar@ntpperu.com;973 723 563;5/05/2025;ACTIVO
+76417832;silvestreda;Daniel Silvestre Principe;Luz Bustamante Caycho;Asesor;REMOTO;FT;ATC DIGITAL;daniel.silvestre@ntpperu.com;970043365;5/05/2025;ACTIVO
+74708090;pereziv;Ivan Perez Farfan;Luz Bustamante Caycho;Asesor;PRESENCIAL;FT;ATC DIGITAL;ivan.perez@ntpperu.com;900443945;5/05/2025;ACTIVO
+75270680;aaranciaga;Alexis Aranciaga;Luz Bustamante Caycho;Asesor;REMOTO;FT;ATC DIGITAL;alexis.aranciaga@ntpperu.com;923 992 335;6/06/2025;ACTIVO
+71670523;glimahuaya;Gianella Ruby Limahuaya Serrano;Luz Bustamante Caycho;Asesor;REMOTO;FT;ATC DIGITAL;gianella.limahuaya@ntpperu.com;902014173;6/06/2025;ACTIVO
+3885022;gmata;Greidy Matta Guauria;Luz Bustamante Caycho;Asesor;REMOTO;FT;ATC DIGITAL;greidy.mata@ntpperu.com;971 985 575;6/06/2025;ACTIVO
+70110439;zgarcia;Zenaida Beatriz García Huaranca;Luz Bustamante Caycho;Asesor;REMOTO;FT;ATC DIGITAL;zenaida.garcia@ntpperu.com;982749935;6/06/2025;ACTIVO
 73026990;jsuarezcc;Julian Leonardo Suarez Ccorisapa;Luz Bustamante Caycho;Asesor;PRESENCIAL;FT;ATC DIGITAL;julian.suarez@ntpperu.com;934606260;22/07/2025;ACTIVO
 74020765;kalbanc;Kevin Augusto Albán Chiroque;Luz Bustamante Caycho;Asesor;PRESENCIAL;FT;ATC DIGITAL;kevin.alban@ntpperu.com;929100163;22/07/2025;ACTIVO
 73894272;vcamachog;Viviana guadalupe camacho gutierrez;Luz Bustamante Caycho;Asesor;PRESENCIAL;FT;ATC DIGITAL;guadalupe.camacho@ntpperu.com;923447097;22/07/2025;ACTIVO
-72406317;spolanco;Sophia Alejandra Polanco Díaz;Luz Bustamante Caycho;Asesor;REMOTO;FT;ATC DIGITAL;sophia.polanco@ntpperu.com;953854249;06/06/2025;ACTIVO
-75934641;ogonzalez;González cieza oswaldo alexander;Luz Bustamante Caycho;Asesor;REMOTO;FT;ATC DIGITAL;oswaldo.gonzalez@ntpperu.com;986045227;06/10/2025;ACTIVO
-47704928;jlperez;Pérez valdivia josé luis;Luz Bustamante Caycho;Asesor;REMOTO;FT;ATC DIGITAL;;936101674;06/10/2025;ACTIVO
-74888077;arendon;Rendon pariona ariana veronica;Luz Bustamante Caycho;Asesor;REMOTO;FT;ATC DIGITAL;ariana.rendon@ntpperu.com;955214674;06/10/2025;ACTIVO
-76099017;zubiagaar;Ariana Zubiaga;Manuel Reto;Asesor;REMOTO;PT;ATC DIGITAL;ariana.zubiaga@ntpperu.com;923168022;05/05/2025;ACTIVO
+72406317;spolanco;Sophia Alejandra Polanco Díaz;Luz Bustamante Caycho;Asesor;REMOTO;FT;ATC DIGITAL;sophia.polanco@ntpperu.com;953854249;6/06/2025;ACTIVO
+75934641;ogonzalez;González cieza oswaldo alexander;Luz Bustamante Caycho;Asesor;REMOTO;FT;ATC DIGITAL;oswaldo.gonzalez@ntpperu.com;986045227;6/10/2025;ACTIVO
+47704928;jlperez;Pérez valdivia josé luis;Luz Bustamante Caycho;Asesor;REMOTO;FT;ATC DIGITAL;;936101674;6/10/2025;ACTIVO
+74888077;arendon;Rendon pariona ariana veronica;Luz Bustamante Caycho;Asesor;REMOTO;FT;ATC DIGITAL;ariana.rendon@ntpperu.com;955214674;6/10/2025;ACTIVO
+76099017;zubiagaar;Ariana Zubiaga;Manuel Reto;Asesor;REMOTO;PT;ATC DIGITAL;ariana.zubiaga@ntpperu.com;923168022;5/05/2025;ACTIVO
 76746241;jaolivera;Olivera Cayo Jean Anthony;Manuel Reto;Asesor;REMOTO;FT;ATC DIGITAL;jean.olivera@ntpperu.com;906272852;15/08/2025;ACTIVO
 47610506;jhuertas;Huertas Negron Jordan Angel;Manuel Reto;Asesor;REMOTO;FT;ATC DIGITAL;jordan.huertas@ntpperu.com;969342454;15/08/2025;ACTIVO
 73567360;mseron;Seron Apaza Maricruz;Manuel Reto;Asesor;REMOTO;FT;ATC DIGITAL;maricruz.seron@ntpperu.com;974997479;15/08/2025;ACTIVO
-75371145;schirinos;Chirinos Yaytaco Samantha Dianira;Manuel Reto;Asesor;REMOTO;FT;ATC DIGITAL;samantha.chirinos@ntpperu.com;984008290;15/8/2025;ACTIVO
+75371145;schirinos;Chirinos Yaytaco Samantha Dianira;Manuel Reto;Asesor;REMOTO;FT;ATC DIGITAL;samantha.chirinos@ntpperu.com;984008290;15/08/2025;ACTIVO
 71455959;aalegre;Alegre Vega Angie Dahana;Manuel Reto;Asesor;REMOTO;FT;ATC DIGITAL;angie.alegre@ntpperu.com;955456700;15/08/2025;ACTIVO
-74053457;kvertiz;Vertiz montejo kimberly monica;Manuel Reto;Asesor;REMOTO;FT;ATC DIGITAL;kimberly.vertiz@ntpperu.com;997808327;06/10/2025;ACTIVO
-75906307;huchida;Uchida moquillaza hiroki alberto;Manuel Reto;Asesor;REMOTO;FT;ATC DIGITAL;hiroki.uchida@ntpperu.com;939308600;06/10/2025;ACTIVO
-46316330;rlflores;FLORES FLORES ROGER LUIS;Manuel Reto;Asesor;REMOTO;FT;ATC DIGITAL;;925277618;06/10/2025;ACTIVO
+74053457;kvertiz;Vertiz montejo kimberly monica;Manuel Reto;Asesor;REMOTO;FT;ATC DIGITAL;kimberly.vertiz@ntpperu.com;997808327;6/10/2025;ACTIVO
+75906307;huchida;Uchida moquillaza hiroki alberto;Manuel Reto;Asesor;REMOTO;FT;ATC DIGITAL;hiroki.uchida@ntpperu.com;939308600;6/10/2025;ACTIVO
+46316330;rlflores;FLORES FLORES ROGER LUIS;Manuel Reto;Asesor;REMOTO;FT;ATC DIGITAL;;925277618;6/10/2025;ACTIVO
 48711593;agpinedo;Alisson Geraldinne Pinedo Rios;Flor Suyon Cordova;Asesor;HIBRIDO;FT;ATC VOZ;alisson.pinero@ntpperu.com;936879044;26/05/2025;ACTIVO
-76836562;mvergonzzini;Manuel Antonio Vergonzzini Solis;Flor Suyon Cordova;Asesor;PRESENCIAL;FT;ATC VOZ;manuel.vergozzini@ntpperu.com;939766017;01/09/2025;ACTIVO
+76836562;mvergonzzini;Manuel Antonio Vergonzzini Solis;Flor Suyon Cordova;Asesor;PRESENCIAL;FT;ATC VOZ;manuel.vergozzini@ntpperu.com;939766017;1/09/2025;ACTIVO
 71523112;rlhinostroza;Rodrigo Liam Hinostroza Alcantara;Flor Suyon Cordova;Asesor;REMOTO;FT;ATC VOZ;rodrigo.hinostroza@ntpperu.com;900039760;25/06/2025;ACTIVO
 45492400;rvquispe;Rossana Vanessa Quispe Meza;Flor Suyon Cordova;Asesor;REMOTO;FT;ATC VOZ;Rossana.quispe@ntpperu.com;960250468;25/06/2025;ACTIVO
 10065010;sesanchez;Silvia Esperanza Sanchez Bascones;Flor Suyon Cordova;Asesor;PRESENCIAL;FT;ATC VOZ;silvia.sanchez@ntpperu.com;949252637;19/07/2025;ACTIVO
 71476223;claines;Conhy Jimena Laines Nuñez;Flor Suyon Cordova;Asesor;REMOTO;FT;ATC VOZ;conhy.laines@ntpperu.com;953147731;19/07/2025;ACTIVO
 76591990;jrluque;Jonathan Rolando Luque Huanca;Flor Suyon Cordova;Asesor;REMOTO;FT;ATC VOZ;jonathan.luque@ntpperu.com;957123517;19/07/2025;ACTIVO
-48923082;michavez;Miguel Angel Chavez Pantoja;Flor Suyon Cordova;Asesor;REMOTO;FT;ATC VOZ;miguel.chavez@ntpperu.com;964568882;02/09/2025;ACTIVO
-74983342;mnicolas;Mitzi Nicolás Olivos;Flor Suyon Cordova;Asesor;REMOTO;FT;ATC VOZ;mitzi.nicolas@ntpperu.com;912506194;02/09/2025;ACTIVO
+48923082;michavez;Miguel Angel Chavez Pantoja;Flor Suyon Cordova;Asesor;REMOTO;FT;ATC VOZ;miguel.chavez@ntpperu.com;964568882;2/09/2025;ACTIVO
+74983342;mnicolas;Mitzi Nicolás Olivos;Flor Suyon Cordova;Asesor;REMOTO;FT;ATC VOZ;mitzi.nicolas@ntpperu.com;912506194;2/09/2025;ACTIVO
 9447415;jhostiaa;Janeth Edith Hostia Amaro;Lesly Monteverde Carbonero;Asesor;REMOTO;FT;ATC VOZ;janeth.hostia@ntpperu.com;945325557;26/05/2025;ACTIVO
 73990000;gtorino;Giuseppe Salvatore Torino Salazar;Lesly Monteverde Carbonero;Asesor;REMOTO;FT;ATC VOZ;giuseppe.torino@ntpperu.com;949520197;26/05/2025;ACTIVO
 43119091;rpacheco;Raquel Pacheco Ramos;Lesly Monteverde Carbonero;Asesor;PRESENCIAL;FT;ATC VOZ;raquel.pacheco@ntpperu.com;947383549;25/06/2025;ACTIVO
@@ -38,24 +38,24 @@
 75432015;macompia;Maria Jesus Pacompia Espinoza;Lesly Monteverde Carbonero;Asesor;REMOTO;FT;ATC VOZ;maria.acompia@ntpperu.com;922651694;19/07/2025;ACTIVO
 60946971;kloayza;Kiara Loayza Romero;Lesly Monteverde Carbonero;Asesor;REMOTO;FT;ATC VOZ;kiara.loayza@ntpperu.com;934700794;19/07/2025;ACTIVO
 72423660;fdelacruz;Fabrizio Alejandro De La Cruz Barrientos;Lesly Monteverde Carbonero;Asesor;REMOTO;PT;ATC VOZ;fabrizio.delacruz@ntpperu.com;977630065;19/07/2025;ACTIVO
-75232114;dvalenzuela;Danna whitney valenzuela paucar;Lesly Monteverde Carbonero;Asesor;REMOTO;FT;ATC VOZ;danna.valenzuela@ntpperu.com;904068415;04/08/2025;ACTIVO
-72215811;mmoron;Mmilagros madeleyne morón tananta;Lesly Monteverde Carbonero;Asesor;REMOTO;FT;ATC VOZ;milagros.moron@ntpperu.com;988744192;04/08/2025;ACTIVO
+75232114;dvalenzuela;Danna whitney valenzuela paucar;Lesly Monteverde Carbonero;Asesor;REMOTO;FT;ATC VOZ;danna.valenzuela@ntpperu.com;904068415;4/08/2025;ACTIVO
+72215811;mmoron;Mmilagros madeleyne morón tananta;Lesly Monteverde Carbonero;Asesor;REMOTO;FT;ATC VOZ;milagros.moron@ntpperu.com;988744192;4/08/2025;ACTIVO
 40093963;bagonzales;Bruno Antonio Gonzales Caceres;Nickole Velasquez;Asesor;REMOTO;FT;ATC VOZ;bruno.gonzales@ntpperu.com;988824883;26/05/2025;ACTIVO
 74743732;mfloresv;Milton Flores Vela;Nickole Velasquez;Asesor;REMOTO;PT;ATC VOZ;milton.flores@ntpperu.com;997739662;26/05/2025;ACTIVO
 70186429;caalva;Christian Augusto Alva Mendez;Nickole Velasquez;Asesor;REMOTO;FT;ATC VOZ;christian.alva@ntpperu.com;902564930;25/06/2025;ACTIVO
 74705580;gquijada;Gianella Katherine Quijada Romero;Nickole Velasquez;Asesor;REMOTO;PT;ATC VOZ;gianella.quijada@ntpperu.com;959069759;19/07/2025;ACTIVO
 40015697;mwinkelried;Winkelried cáceres miguel arnaldo;Nickole Velasquez;Asesor;PRESENCIAL;FT;ATC VOZ;miguel.winkelied@ntpperu.com;947191144;15/08/2025;ACTIVO
 75163311;sgastelu;Ggastelu raules sabrina;Nickole Velasquez;Asesor;REMOTO;PT;ATC VOZ;sabrina.gastelu@ntpperu.com;942283665;15/08/2025;ACTIVO
-46814154;jocastro;Jose Daniel Castro Palomino;Nickole Velasquez;Asesor;REMOTO;FT;ATC VOZ;jose.castro@ntpperu.com;936633911;02/09/2025;ACTIVO
-40803523;jalca;Jose Luis Alca Acero;Nickole Velasquez;Asesor;REMOTO;FT;ATC VOZ;jose.alca@ntpperu.com;954543384;02/09/2025;ACTIVO
-47307289;nccoiso;Naysha Marycielo Ccoiso Velez De Villa;Nickole Velasquez;Asesor;REMOTO;FT;ATC VOZ;naysha.ccoiso@ntpperu.com;943373529;02/09/2025;ACTIVO
-43416822;dmedrano;Doris Medrano Choque;Nickole Velasquez;Asesor;REMOTO;FT;ATC VOZ;doris.medrano@ntpperu.com;953505008;02/09/2025;ACTIVO
+46814154;jocastro;Jose Daniel Castro Palomino;Nickole Velasquez;Asesor;REMOTO;FT;ATC VOZ;jose.castro@ntpperu.com;936633911;2/09/2025;ACTIVO
+40803523;jalca;Jose Luis Alca Acero;Nickole Velasquez;Asesor;REMOTO;FT;ATC VOZ;jose.alca@ntpperu.com;954543384;2/09/2025;ACTIVO
+47307289;nccoiso;Naysha Marycielo Ccoiso Velez De Villa;Nickole Velasquez;Asesor;REMOTO;FT;ATC VOZ;naysha.ccoiso@ntpperu.com;943373529;2/09/2025;ACTIVO
+43416822;dmedrano;Doris Medrano Choque;Nickole Velasquez;Asesor;REMOTO;FT;ATC VOZ;doris.medrano@ntpperu.com;953505008;2/09/2025;ACTIVO
 75163311;sgastelu;GASTELU RAULES SABRINA;Nickole Velasquez;Asesor;REMOTO;PT;ATC VOZ;sabrina.gastelu@ntpperu.com;942283665;15/08/2025;ACTIVO
-46814154;jocastro;Jose Daniel Castro Palomino;Nickole Velasquez;Asesor;REMOTO;FT;ATC VOZ;jose.castro@ntpperu.com;936633911;02/09/2025;ACTIVO
-40803523;jalca;Jose Luis Alca Acero;Nickole Velasquez;Asesor;REMOTO;FT;ATC VOZ;jose.alca@ntpperu.com;954543384;02/09/2025;ACTIVO
-47307289;nccoiso;Naysha Marycielo Ccoiso Velez De Villa;Nickole Velasquez;Asesor;REMOTO;FT;ATC VOZ;naysha.ccoiso@ntpperu.com;943373529;02/09/2025;ACTIVO
-46480968;macueva;Mayra Alejandra Cueva Flechelle;Nickole Velasquez;Asesor;REMOTO;FT;ATC VOZ;mayra.cueva@ntpperu.com;902171772;02/09/2025;ACTIVO
-43416822;dmedrano;Doris Medrano Choque;Nickole Velasquez;Asesor;REMOTO;FT;ATC VOZ;doris.medrano@ntpperu.com;953505008;02/09/2025;ACTIVO
+46814154;jocastro;Jose Daniel Castro Palomino;Nickole Velasquez;Asesor;REMOTO;FT;ATC VOZ;jose.castro@ntpperu.com;936633911;2/09/2025;ACTIVO
+40803523;jalca;Jose Luis Alca Acero;Nickole Velasquez;Asesor;REMOTO;FT;ATC VOZ;jose.alca@ntpperu.com;954543384;2/09/2025;ACTIVO
+47307289;nccoiso;Naysha Marycielo Ccoiso Velez De Villa;Nickole Velasquez;Asesor;REMOTO;FT;ATC VOZ;naysha.ccoiso@ntpperu.com;943373529;2/09/2025;ACTIVO
+46480968;macueva;Mayra Alejandra Cueva Flechelle;Nickole Velasquez;Asesor;REMOTO;FT;ATC VOZ;mayra.cueva@ntpperu.com;902171772;2/09/2025;ACTIVO
+43416822;dmedrano;Doris Medrano Choque;Nickole Velasquez;Asesor;REMOTO;FT;ATC VOZ;doris.medrano@ntpperu.com;953505008;2/09/2025;ACTIVO
 74225579;jzamudio;Jhyred Somaly Zamudio Torres;Pamela Quintanilla;Asesor;Presencial;FT;Fidelizacion;Jhyred.zamudio@ntpperu.com;934811550;12/09/2025;Activo
 44144138;jcondormango;Jorge Hernando Condormango González;Pamela Quintanilla;Asesor;Presencial;FT;Fidelizacion;jorge.condormango@ntpperu.com;943285956;25/08/2025;Activo
 77250535;garredondo;Gabriela del Carmen Arredondo Valdiviezo;Pamela Quintanilla;Asesor;Presencial;FT;Fidelizacion;gabriela.arredondo@ntpperu.com;907821024;25/08/2025;Activo
