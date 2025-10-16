@@ -3,138 +3,49 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NTP | Calidad - Focalizados</title>
+  <title>NTP | Calidad - Formularios</title>
   <link rel="stylesheet" href="css/tailwind.min.css">
-  <script src="https://alcdn.msauth.net/browser/2.38.3/js/msal-browser.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
 </head>
-<body class="min-h-screen bg-gradient-to-br from-gray-100 via-teal-50 to-gray-200">
+<body class="min-h-screen bg-gray-100 flex flex-col items-center justify-center">
 
-  <div class="md:flex min-h-screen">
-    <!-- Sidebar -->
-    <aside class="md:w-1/5 bg-gradient-to-b from-teal-700 to-teal-500 px-6 py-10 shadow-lg">
-      <h1 class="uppercase text-white tracking-wide text-2xl font-bold mt-2">Formularios</h1>
-      <nav class="mt-8 space-y-2">
-        <a href="01_crosselling.html" class="block text-white/90 px-4 py-2 rounded-lg hover:bg-white/10 hover:text-yellow-300 transition duration-200">Crosselling</a>
-        <a href="02_retenciones.html" class="block text-white/90 px-4 py-2 rounded-lg hover:bg-white/10 hover:text-yellow-300 transition duration-200">Retenciones</a>
-        <a href="03_descuentos.html" class="block text-white/90 px-4 py-2 rounded-lg hover:bg-white/10 hover:text-yellow-300 transition duration-200">Descuentos y Ajustes</a>
-        <a href="04_reinstalaciones.html" class="block text-white/90 px-4 py-2 rounded-lg hover:bg-white/10 hover:text-yellow-300 transition duration-200">Reinstalaciones</a>
-        <a href="05_fidelizacion.html" class="block text-white/90 px-4 py-2 rounded-lg hover:bg-white/10 hover:text-yellow-300 transition duration-200">Fidelización</a>
-      </nav>
-    </aside>
+  <!-- Header -->
+  <header class="text-center mb-10">
+    <h1 class="text-3xl font-bold text-teal-700 mb-2">Portal de Formularios - NTP</h1>
+    <p class="text-gray-600">Calidad · Focalizados · Gestión</p>
+  </header>
 
-    <!-- Main -->
-    <main class="md:w-4/5 px-5 py-10 bg-white/90 backdrop-blur-sm border-l border-gray-200">
-      <div class="flex justify-between items-center mb-8">
-        <h2 class="text-2xl font-bold text-gray-700">Focalizados - Crosselling</h2>
+  <!-- Contenedor principal -->
+  <main class="bg-white p-8 rounded-lg shadow-lg w-full max-w-lg">
+    <h2 class="text-xl font-semibold text-gray-700 mb-6 text-center">Selecciona un formulario</h2>
+    <nav class="space-y-4">
 
-        <button id="btnLogin" type="button"
-          class="bg-teal-600 text-white px-4 py-2 rounded-lg hover:bg-teal-700 transition">
-          Iniciar sesión con Microsoft
-        </button>
-      </div>
+      <a href="01_crosselling.html" class="block bg-teal-600 text-white text-center py-3 rounded-lg hover:bg-teal-700 transition">
+        Focalizados - Croselling
+      </a>
 
-      <form id="formCroselling" class="space-y-8">
+      <a href="02_retenciones.html" class="block bg-teal-500 text-white text-center py-3 rounded-lg hover:bg-teal-600 transition">
+        Focalizados - Retenciones
+      </a>
 
-        <!-- 🟩 BLOQUE 1 -->
-        <div class="bg-white/90 backdrop-blur-sm border border-gray-200 p-6 rounded-xl shadow-md hover:shadow-lg transition">
-          <h3 class="text-lg font-semibold mb-4 text-teal-700">Datos Generales</h3>
-          <div class="grid md:grid-cols-2 gap-4">
-            <div>
-              <label class="block text-gray-600">Fecha de llamada</label>
-              <input type="date" class="w-full border rounded p-2" name="fecha_llamada">
-            </div>
-            <div>
-              <label class="block text-gray-600">Campaña</label>
-              <select id="campania" class="w-full border rounded p-2"></select>
-            </div>
-            <div>
-              <label class="block text-gray-600">Tipo Focalizado</label>
-              <input type="text" value="NTP" readonly class="w-full border rounded p-2 bg-gray-100">
-            </div>
-            <div>
-              <label class="block text-gray-600">Fecha Revisión</label>
-              <input type="date" class="w-full border rounded p-2" name="fecha_revision">
-            </div>
-            <div>
-              <label class="block text-gray-600">Teléfono / Any / Chat</label>
-              <input type="text" class="w-full border rounded p-2">
-            </div>
-            <div>
-              <label class="block text-gray-600">DNI Cliente</label>
-              <input type="text" class="w-full border rounded p-2">
-            </div>
-            <div>
-              <label class="block text-gray-600">DNI Asesor</label>
-              <select id="dni_asesor" class="w-full border rounded p-2"></select>
-            </div>
-            <div>
-              <label class="block text-gray-600">Usuario ICC</label>
-              <select id="usuario_icc" class="w-full border rounded p-2"></select>
-            </div>
-            <div>
-              <label class="block text-gray-600">Nombre Asesor</label>
-              <select id="nombre_asesor" class="w-full border rounded p-2"></select>
-            </div>
-            <div>
-              <label class="block text-gray-600">Supervisor</label>
-              <select id="supervisor" class="w-full border rounded p-2"></select>
-            </div>
-            <div>
-              <label class="block text-gray-600">Monitor</label>
-              <select id="monitor" class="w-full border rounded p-2">
-                <option value="" disabled selected>Elegir monitor</option>
-                <option value="Vanessa">Vanessa</option>
-                <option value="Otros">Otros</option>
-              </select>
-            </div>
-            <div>
-              <label class="block text-gray-600">Semana</label>
-              <input type="text" class="w-full border rounded p-2">
-            </div>
-            <div>
-              <label class="block text-gray-600">Cuartil</label>
-              <input type="text" class="w-full border rounded p-2">
-            </div>
-          </div>
-        </div>
+      <a href="03_descuentos.html" class="block bg-teal-400 text-white text-center py-3 rounded-lg hover:bg-teal-500 transition">
+        Focalizados - Descuentos y Ajustes
+      </a>
 
-        <!-- 🟦 BLOQUE 2 -->
-        <div class="bg-white/90 backdrop-blur-sm border border-gray-200 p-6 rounded-xl shadow-md hover:shadow-lg transition">
-          <h3 class="text-lg font-semibold mb-4 text-teal-700">Evaluación de Gestión</h3>
-          <div class="grid md:grid-cols-2 gap-4">
-            <div>
-              <label class="block text-gray-600">Quién se comunica</label>
-              <select id="quien_comunica" class="w-full border rounded p-2"></select>
-            </div>
-            <div>
-              <label class="block text-gray-600">Motivo de contacto</label>
-              <select id="motivo_contacto" class="w-full border rounded p-2"></select>
-            </div>
-            <div>
-              <label class="block text-gray-600">Tipo de plan + SVA</label>
-              <select id="tipo_plan" class="w-full border rounded p-2"></select>
-            </div>
-            <div>
-              <label class="block text-gray-600">Amerita ofrecimiento</label>
-              <select id="amerita_ofrecimiento" class="w-full border rounded p-2"></select>
-            </div>
+      <a href="04_reinstalaciones.html" class="block bg-teal-300 text-white text-center py-3 rounded-lg hover:bg-teal-400 transition">
+        Focalizados - Reinstalaciones
+      </a>
 
-          </div>
-        </div>
+      <a href="05_fidelizacion.html" class="block bg-teal-200 text-gray-800 text-center py-3 rounded-lg hover:bg-teal-300 transition">
+        Focalizados - Fidelización
+      </a>
 
-        <!-- 🟨 BOTÓN GUARDAR -->
-        <div class="text-right">
-          <button type="submit" class="bg-teal-600 text-white px-8 py-3 rounded-lg hover:bg-teal-700 shadow-md transition">
-            Guardar formulario
-          </button>
-        </div>
+    </nav>
+  </main>
 
-      </form>
-    </main>
-  </div>
+  <!-- Footer -->
+  <footer class="mt-10 text-gray-500 text-sm text-center">
+    © 2025 NTP | Área de Calidad
+  </footer>
 
-  <script src="js/formulario.js" type="module"></script>
 </body>
 </html>
-
