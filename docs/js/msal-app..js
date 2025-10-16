@@ -1,12 +1,9 @@
-// js/msal-app.js
-// Configuración de MSAL (Microsoft Authentication Library)
-
 export const msalConfig = {
   auth: {
-    clientId: "168fa127-022d-4535-9acd-cf17a64cee20", // Id de aplicación (cliente)
-    authority: "f88cba71-d226-4d73-be87-c972ecafc1f5", // Id de directorio (inquilino)
-    redirectUri: "https://planeamientocontrol-debug.github.io/calidad_formularios/01_crosselling.html" // 👈 AQUÍ VA TU redirect URI
-    // redirectUri: "http://localhost:5500/docs/index.html" // 👈 AQUÍ VA TU redirect URI
+    clientId: "168fa127-022d-4535-9acd-cf17a64cee20", // tu Id. de aplicación
+    authority: "https://login.microsoftonline.com/f88cba71-d226-4d73-be87-c972ecafc1f5", // 👈 URL completa del inquilino
+    redirectUri: "https://planeamientocontrol-debug.github.io/calidad_formularios/01_crosselling.html" // 👈 tu URL de producción (GitHub Pages)
+    // redirectUri: "http://localhost:5500/docs/index.html" // 👈 para pruebas locales
   },
   cache: {
     cacheLocation: "localStorage", // mantiene la sesión activa
