@@ -1,7 +1,7 @@
 // js/msal-app.js
 export const msalConfig = {
   auth: {
-    clientId: "168fa127-022d-4535-9acd-cf17a64cee20",
+    clientId: "a64f76bf-cb87-4348-8db0-d3959ca6cd54",
     authority: "https://login.microsoftonline.com/f88cba71-d226-4d73-be87-c972ecafc1f5",
     redirectUri: "https://planeamientocontrol-debug.github.io/calidad_formularios/01_crosselling.html",
     // Para pruebas locales, agrega esta URI en Azure y cámbiala temporalmente:
